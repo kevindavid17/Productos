@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.txtTitle{
+  margin-left: 4rem;
+  padding: 0.3rem;
+  width: 20rem;
+}
+.txtPrice{
+  margin-left: 4rem;
+  padding: 0.3rem;
+  width: 20rem;
+}
+.txtDescription{
+  margin-left: 1rem;
+  padding: 0.3rem;
+  width: 20rem;
+}
+.campo{
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: rgb(218, 215, 215);
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-left: 30rem;
+  margin-right: 30rem;
+}
+.btnseccion{
+  padding-top: 1rem;
+}
+.btn{
+  padding: 0.5rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+.btnDelete{
+  margin-left: 3rem;
+}
+.campoDetalle{
+  padding: 10rem;
+}
+
+.txtError{
+  color: red;
+  font-weight: bold;
+}
+.txtCorrecto{
+  color: rgb(17, 161, 17);
+  font-weight: bold;
+}
